@@ -273,7 +273,7 @@ footer{text-align:center;padding:1.8rem;background:var(--bg);border-top:1px soli
 <body>
 <div class="gold-bar" aria-hidden="true"></div>
 <nav role="navigation" aria-label="Main navigation">
-  <div class="nav-brand">RVS</div>
+  <div class="nav-brand">RS</div>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#experience">Experience</a></li>
@@ -627,6 +627,33 @@ footer{text-align:center;padding:1.8rem;background:var(--bg);border-top:1px soli
               <div class="cb-links">
                 <a href="https://github.com/raviamrav/reolink-archive-pipeline" target="_blank" rel="noopener" class="cb-link cb-live" onclick="event.stopPropagation()">View code ↗</a>
                 <span class="cb-link cb-gh" style="opacity:.35;cursor:default">No live demo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="proj-card" onclick="flipCard(this)" role="button" tabindex="0" aria-label="Bilingual Thirukkural — click to flip" onkeydown="if(event.key==='Enter'||event.key===' ')flipCard(this)">
+          <div class="card-inner">
+            <div class="cf">
+              <div class="cf-tag">Web App · Localization · CI/CD</div>
+              <div class="cf-title">Bilingual Thirukkural Platform</div>
+              <div class="cf-desc">An automated, high-performance digital edition of the complete 1,330 Thirukkural chapters. Compiles original Tamil text alongside English and German translations with dynamic toggling and zero-latency navigation.</div>
+              <div class="cf-pills"><span class="cf-pill">Node.js</span><span class="cf-pill">Firebase Hosting</span><span class="cf-pill">GitHub Actions</span><span class="cf-pill">Puppeteer</span><span class="cf-pill">Vanilla JS</span><span class="cf-pill">CSS3</span></div>
+              <div class="cf-hint">↻ Flip for architecture</div>
+            </div>
+            <div class="cb">
+              <div class="cb-tag">Architecture</div>
+              <div class="cb-title">Bilingual Thirukkural Engine</div>
+              <ul class="cb-list">
+                <li>Node.js generator compiles raw book data into optimized, flat static assets.</li>
+                <li>GitHub Actions CI/CD automatically builds and deploys to Firebase on push.</li>
+                <li>Vanilla JS architecture serves an ultra-lightweight client bundle with zero framework overhead.</li>
+                <li>Bilingual localization framework handles instant client-side EN/DE/Tamil translations.</li>
+                <li>Puppeteer testing scripts verify visual layout integrity prior to live deployments.</li>
+              </ul>
+              <div class="cb-proud">Zero framework overhead. Just pure performance, translation automation, and seamless CI/CD.</div>
+              <div class="cb-links">
+                <a href="https://github.com/raviamrav/thirukkural" target="_blank" rel="noopener" class="cb-link cb-live" onclick="event.stopPropagation()">View code ↗</a>
+                <a href="https://raviamrav-thirukkural.web.app" target="_blank" rel="noopener" class="cb-link cb-live" onclick="event.stopPropagation()">Live demo ↗</a>
               </div>
             </div>
           </div>
